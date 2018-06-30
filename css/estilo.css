@@ -1,83 +1,54 @@
-body {
-	background: rgb(194,227,228);
-	color: white;
-}
-h1, h2, h3 {color: orange;
-    font-family: Castellar;
-}
-header{
-	background: rgb(143,203,205);
-}
-
-article p{
-	background: rgba(239,246,246,0.35);
-	color: orange;
-    font-family: "Charlemagne Std";
-    
-}
-article span{
-    color: orange;
-    font-size: 32px;
-}
-.curso div{
-    background: rgba(239,246,246,0.35);
-    margin: 18px
-}
-nav ul li{
-	display: inline;
-}
-nav {
-    background-color: #333333;
+#nav{
+	position: fixed;
+	display: inline-block;
+	background: #253446;
+	padding: 5px 0 0;
+	width: 15vw;
+	height: 100vh;
+	z-index: 20;
+	top: 0;
+	font-family: "proxima-nova,sans-serif";
 }
 
-
-li a{
-    color: white;
-    text-decoration: none;
+.div-nav{
+	display: block;
 }
-
-li a:hover {
-    background-color: rgb(143,203,205);
-}
-
-.articulo p{
-	font-size: 18px;
-	text-align: justify;
-}
-
-article blockquote p{
-	text-align: justify;
-}
-article h2, article h3{
+#nav #div-imagen{
 	text-align: center;
+	margin-bottom: 60px; 
 }
-#indice ul li a{
-    color: orange;
-    font-size: 16px;
+
+a{
+	text-decoration: none;
+	color: #007faa;
 }
-.curso a{
-    text-decoration: none;
+img{
+	border: 0;
 }
-.tab{
-    border: 1px solid gray;
-    text-align: left;
-    color: black;
-    width: 500px;
-    border-collapse: collapse;
+#navito{
+	margin-bottom: 50px;
 }
-/**table,th,tr,td{
-    padding: 5px;
-    border-collapse: collapse;
-}*/
-.tab tr:nth-child(even){
-    background-color: gray
+
+#nav #navito ul{
+	margin: 0;
+	padding: 0;
 }
-.fil{
-    background-color: white;
+#nav #navito ul li{
+	list-style: none;
+	position: relative;
+	display: block;
 }
-.coll{
-    padding: 5px
+#nav #navito ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	padding-top: 15px;
+	padding-right: 0;
+	padding-bottom: 15px;
+	padding-left: 10%;
+	display: inline-block;
+	width: 90%;
 }
-.coll,.fil,.col{
-    border: 1px solid gray;
+#nav #navito a:hover{
+	color: #929aa3;
 }
