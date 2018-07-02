@@ -1,54 +1,54 @@
-#nav{
-	position: fixed;
-	display: inline-block;
-	background: #253446;
-	padding: 5px 0 0;
-	width: 15vw;
-	height: 100vh;
-	z-index: 20;
-	top: 0;
-	font-family: "proxima-nova,sans-serif";
-}
+header{
+	width: 1080px;
+	height: 300px;
+	background-image: url("2018.1_release-homepage-tile-1920x600.jpg");
+	background-color: rgb(104,114,106);
 
-.div-nav{
-	display: block;
 }
-#nav #div-imagen{
-	text-align: center;
-	margin-bottom: 60px; 
+h1, h2,h4,h3{
+	color: white;
 }
-
-a{
-	text-decoration: none;
-	color: #007faa;
+article h1{
+	color: black;
+	margin: 0;
+	font-size: 37px;
 }
-img{
-	border: 0;
-}
-#navito{
-	margin-bottom: 50px;
-}
-
-#nav #navito ul{
+ul{
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
-#nav #navito ul li{
-	list-style: none;
-	position: relative;
+li a{
+	padding: 16px;
+	color: white;
 	display: block;
+	text-align: center;}
+li{
+	float: left;
 }
-#nav #navito ul li a{
-	text-decoration: none;
-	color: #fff;
-	font-size: 16px;
-	padding-top: 15px;
-	padding-right: 0;
-	padding-bottom: 15px;
-	padding-left: 10%;
+li a:hover{
+	color: #00bcd4;
+}
+.lado{
+	float: right;
+}
+.divsec{	
+	width: 538px;
+}
+section{
+	width: 1080px;
+}
+
+article{
 	display: inline-block;
-	width: 90%;
+	height: 200px;
+	text-align: center;
+	background-repeat: no-repeat;
+	}
+section a:hover{	
+	opacity: 0.50;
 }
-#nav #navito a:hover{
-	color: #929aa3;
+a{
+	text-decoration: none;
 }
