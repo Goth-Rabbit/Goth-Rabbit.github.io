@@ -5,7 +5,20 @@ header{
 	background-color: rgb(104,114,106);
 
 }
-h1, h2,h4,h3{
+footer h2{
+	color: gray;
+	display: inline-block;
+}
+footer{
+	background-color: rgb(104,114,106);
+	margin-bottom: 0;
+	margin-top: 0;
+	height: 50px;
+	width: 1080px;
+	text-align: center;
+	padding: 10px;
+}
+h1, h4,h3{
 	color: white;
 }
 article h1{
@@ -34,15 +47,19 @@ li a:hover{
 	float: right;
 }
 .divsec{	
-	width: 538px;
+	margin-top: 10px;
 }
+
+
 section{
 	width: 1080px;
 }
 
 article{
+	width: 538px;
 	display: inline-block;
 	height: 200px;
+	background-color: gray;
 	text-align: center;
 	background-repeat: no-repeat;
 	}
@@ -51,4 +68,7 @@ section a:hover{
 }
 a{
 	text-decoration: none;
+}
+.h1{
+	padding-top: 80px;
 }
