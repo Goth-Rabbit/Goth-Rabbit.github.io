@@ -1,0 +1,19 @@
+.body-background {
+  background-image: url("css/League-of-Legends-destacada.jpg");
+}
+.rank-body-background {
+  background-image: url("css/League-of-Legends-destacada.jpg");
+}
+
+.my-table{
+  background-color: rgba(8, 10, 12, 0.884);
+}
+
+.my-container{
+  position: fixed;
+  padding: 3%;
+  top: 20%;
+  left: 15%;
+  height: 60%;
+  width: 70%;
+}
